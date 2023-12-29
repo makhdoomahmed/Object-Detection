@@ -1,10 +1,3 @@
-frame wrok which we are projects
-secure wise what from AADC with repsect to checking Security
-paln for security and performance test for AADC mobile application
-CX Strategy document provide the Figma details, if avalible wiht injazat
-testing exit report presentation add testing flow - Done
-
-
 # Object Detection Assignment-1 Quater-4 Sir Anees
 This initiative is concentrated on executing object localization tasks by deploying a pre-initialized YOLOv5s neural network. Subsequent to the object localization process, the algorithm executes a cropping operation on the source imagery, utilizing the bounding box coordinates delineated by the model's inference to segregate the anticipated object instances
 
@@ -19,11 +12,10 @@ Run the main.py script to execute supporting scripts that perform object detecti
 
 
 ## Sample image used .\image_source
-![](Busy Street.jpg)
+Busy Street.jpg
 
 ## Predicted Object Images
-
-![](runs/detect/exp2/image0.jpg)
+Please check .\runs\detect\exp2\image0.jpg
 
 ## Meta data 
-Please check metadata.csv
+Please check .\metadata folder file name metadata.csv
