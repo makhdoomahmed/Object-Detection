@@ -1,24 +1,29 @@
-# Object Detection and Image Cropping Project
-This project focuses on performing object detection using a pretrained YOLOv5s model. Following the detection, the script crops the original image based on the model's outputs, isolating the predicted objects.
+frame wrok which we are projects
+secure wise what from AADC with repsect to checking Security
+paln for security and performance test for AADC mobile application
+CX Strategy document provide the Figma details, if avalible wiht injazat
+testing exit report presentation add testing flow - Done
+
+
+# Object Detection Assignment-1 Quater-4 Sir Anees
+This initiative is concentrated on executing object localization tasks by deploying a pre-initialized YOLOv5s neural network. Subsequent to the object localization process, the algorithm executes a cropping operation on the source imagery, utilizing the bounding box coordinates delineated by the model's inference to segregate the anticipated object instances
 
 
 ## Usage
 Run the main.py script to execute supporting scripts that perform object detection and create two folders:
 
-- runs folder: Contains labeled images with predicted bounding boxes.
+- runs folder: Labeled images with predicted object bounding boxes. With each run it will create automatially new folder.
+- image_slice: Contains the part of the detected image.
+- image_source: Where your main image source.
+- metadata: Creating the meta data details.
 
-- Cropped_images folder: Contains images of the predicted objects cropped from the original image.
 
-## Orignal sample
-![](dog.jpg)
-## Predicted Sample
+## Sample image used .\image_source
+![](Busy Street.jpg)
 
-![](runs/detect/exp/image0.jpg)
+## Predicted Object Images
 
-## Cropped samples
-<p align="center">
-  <img src="./Cropped_images/bicycle_2.png" width="350">
-  <img src="./Cropped_images/car_1.png" width="350" >
-  <img src="./Cropped_images/dog_0.png" width="350" >
-</p>
+![](runs/detect/exp2/image0.jpg)
 
+## Meta data 
+Please check metadata.csv
