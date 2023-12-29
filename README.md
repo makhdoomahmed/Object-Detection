@@ -11,8 +11,8 @@ Run the main.py script to execute supporting scripts that perform object detecti
 - metadata: Creating the meta data details.
 
 
-## Sample image used .\image_source
-Busy Street.jpg
+## Sample image used 
+Please check .\image_source\Busy Street.jpg
 
 ## Predicted Object Images
 Please check .\runs\detect\exp2\image0.jpg
