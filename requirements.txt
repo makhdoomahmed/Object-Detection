@@ -1,0 +1,16 @@
+tensorflow
+opencv-python
+lxml
+tqdm
+numpy
+pandas
+torch
+Image 
+cv2
+time
+urllib
+requests
+sys
+os
+
+-e .
