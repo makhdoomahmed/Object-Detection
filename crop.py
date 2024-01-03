@@ -16,3 +16,4 @@ def object_crop(image_path, info_path):
         
         # Save or process the cropped object as needed
         cv2.imwrite(f'image_slice/{class_name}_{index}.png', cropped_object)
+        
