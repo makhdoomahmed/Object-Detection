@@ -8,17 +8,18 @@ Run the main.py script to execute supporting scripts that perform object detecti
 - runs folder: Contains labeled images with predicted bounding boxes.
 
 - Cropped_images folder: Contains images of the predicted objects cropped from the original image.
+## Paramaters accepted
+- Testing with multiple paramaters
+    - python main.py - with no paramater with default image
+    - python main.py "image_source\Busy_Street.jpg" - with paramater for image location on local dirve
+    - below is with image URL
+    - python main.py https://upload.wikimedia.org/wikipedia/commons/0/09/The_smaller_British_birds_%288053836633%29.jpg
+    
+## Default image location
+  - image_source\Busy_Street.jpg
+    
+## Predicted Sample location
+- runs\detect\exp
 
-## Orignal sample
-![](dog.jpg)
-## Predicted Sample
-
-![](runs/detect/exp/image0.jpg)
-
-## Cropped samples
-<p align="center">
-  <img src="./Cropped_images/bicycle_2.png" width="350">
-  <img src="./Cropped_images/car_1.png" width="350" >
-  <img src="./Cropped_images/dog_0.png" width="350" >
-</p>
-
+## Cropped sample Location
+- image_slice
