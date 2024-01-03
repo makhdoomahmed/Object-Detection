@@ -1,5 +1,5 @@
 # Object Detection and Image Cropping Project
-This project focuses on performing object detection using a pretrained YOLOv5s model. Following the detection, the script crops the original image based on the model's outputs, isolating the predicted objects.
+This project focuses on performing object detection using a pretrained YOLOv5s model. Following the detection, the script crops the original image based on the model's outputs, isolating the predicted objects. It will show the source image before the object detection and after the object detections. To run this project, you must setup your virtual environment.
 
 
 ## Usage
