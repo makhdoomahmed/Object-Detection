@@ -3,11 +3,13 @@ This project focuses on performing object detection using a pretrained YOLOv5s m
 
 
 ## Usage
-Run the main.py script to execute supporting scripts that perform object detection and create two folders:
+Run the main.py script to execute supporting scripts that perform object detection and create four folders:
 
+- image_source folder: contain the source image
 - runs folder: Contains labeled images with predicted bounding boxes.
-
-- Cropped_images folder: Contains images of the predicted objects cropped from the original image.
+- image_slice folder: Contains images of the predicted objects cropped from the original image.
+- metadata folder: CSV file which contain the data and X,Y location of all dectected object from source image. 
+  
 ## Paramaters accepted
 - Testing with multiple paramaters
     - python main.py - with no paramater with default image
